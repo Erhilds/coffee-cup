@@ -1,0 +1,49 @@
+body{
+  background: #222f3e;
+}
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 600px;
+  height: 420px;
+}
+.ice-cream-body{
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  left: 40%;
+  top: 10%;
+  background: #ff7979;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 1;
+}
+.line-1, .line-2{
+  position: absolute;
+  width: 15%;
+  height: 70%;
+  top: 15%;
+  background: #eb4d4b;
+  border-radius: 20px;
+  z-index: 1;
+}
+.line-1{
+  left: 22%;
+}
+.line-2{
+  right: 22%;
+}
+.stick{
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  left: 40%;
+  top: 100%;
+  background: #82ccdd;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 1;
+}
