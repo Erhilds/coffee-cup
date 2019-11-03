@@ -1,7 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components';
-import * as serviceWorker from './serviceWorker';
+import App from './script/components';
+import * as serviceWorker from './script/serviceWorker';
+
+window.onload = function() {
+  const preload = document.getElementsByClassName('preload')[0]
+
+  preload.addEventListener('animationend', (e) => {
+    if (e.animationName === 'fadeout') {
+      preload.remove()
+    }
+  })
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

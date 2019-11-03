@@ -1,4 +1,16 @@
 @import "variable";
 
 // modules-pc
-@import "modules/pc/index"
+@import "modules/pc/index";
+@import "modules/pc/base";
+@import "modules/pc/preview";
+
+// modules-pc
+@import "modules/sp/index";
+@import "modules/sp/base";
+@import "modules/sp/preview";
+
+// keyframes
+@import "keyframes/index";
+@import "keyframes/base";
+@import "keyframes/preview";

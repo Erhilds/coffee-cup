@@ -5,7 +5,9 @@ import Coffee from './Coffee'
 export default () => {
   return (
     <Router>
-      <Coffee/>
+      <div className="coffee-cup">
+        <Route path="/" component={ Coffee } />
+      </div>
     </Router>
   );
 }
