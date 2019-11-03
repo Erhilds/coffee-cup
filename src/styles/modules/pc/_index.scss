@@ -1,0 +1,27 @@
+body {
+  background-color: $theme-vanilla;
+  font-family: "Varela Round", sans-serif;
+}
+
+.illustration {
+  position: relative;
+  width: 80vmin;
+  height: 30vmin;
+  margin-top: 3vmin;
+  margin: auto;
+  background: url("/images/coffee-cup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80vmin;
+}
+
+.description {
+  position: relative;
+  width: 80vmin;
+  margin: 0 auto;
+  text-align: center;
+  color: $theme-grey-dark;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 18px;
+}
